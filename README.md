@@ -12,5 +12,5 @@ git clone https://github.com/ElNelyo/fxserver_esx_map.git esx_map
 4) Add this in your server.cfg :
 
 ```
-start esx_map
+ensure esx_map
 ```
