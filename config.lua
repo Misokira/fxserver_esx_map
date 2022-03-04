@@ -1,13 +1,16 @@
 Config = {}
 
 Config.Map = {
-  {name="Aéroport",color=15, id=90,x = -814.308,  y = -183.823,  z = 36.568},
-  {name="Tequil-La La",color=15, id=93, x=-565.171, y=276.625, z=83.286},
-  {name="Gouvernement",color=1, id=498, x=-429.46313476563, y=1109.98, z=327.682},
-  {name="Aéroport", color=15, id=90, x=1743.6820, y=3286.2510, z=40.087},
-  {name="Yacht",color=15, id=410, x=-2045.800, y=-1031.200, z=11.900},
-  {name="Cargoship",color=15, id=410, x=-90.000, y=-2365.800, z=14.300},
-  {name="Bahamas",color=15, id=93,x=-1388.3294677734, y =-585.99084472656, z= 30.216510772705}
+  {name="Quartier Ballas",color=83, id=378, fade=255,x = 106.03,  y = -1941.60,  z = 20.80},
+  {name="Quartier Families",color=69, id=378, fade=255,x = -182.34,  y = -1605.52,  z = 34.06},
+  {name="Quartier Vagos",color=60, id=378, fade=255,x = 329.25,  y = -2035.72,  z = 20.95},
+  {name="Cosa Nostra",color=4, id=310, fade=255,x = -124.60,  y = 992.54,  z = 235.76},
+  {name="Vigneron",color=83, id=85, fade=255,x = -1894.4172, y = 2028.8167, z = 140.7356}
+}
 
-
+Config.Zone = {
+  {color=83, id=9, fade=80,x = 106.03,  y = -1941.60,  z = 20.80}, --Ballas
+  {color=69, id=9, fade=80,x = -182.34,  y = -1605.52,  z = 34.06}, --Families
+  {color=60, id=9, fade=80,x = 329.25,  y = -2035.72,  z = 20.95}, --Vagos
+  {color=72, id=9, fade=100,x = -124.60,  y = 992.54,  z = 235.76}, --CosaNostra
 }
